@@ -1,0 +1,44 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f9fa;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #0d6efd;
+}
+
+.hero {
+
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.feature-card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.feature-card h5 {
+  margin-top: 15px;
+}
+
+.info-section {
+  padding: 60px 0;
+}
+
+.custom-footer {
+  background-color: #212529;
+  color: #bbb;
+  padding: 30px 0;
+  text-align: center;
+}

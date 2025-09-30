@@ -1,88 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>HTML practice</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  <style>
-  .fakeimg {
-    height: 200px;
-    background: #aaa;
-  }
-  </style>
-</head>
-<body>
-
-<div class="p-5 bg-primary text-white text-center">
-  <h1>My First Bootstrap 5 Page</h1>
-  <p>Resize this responsive page to see the effect!</p> 
-</div>
-
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-  <div class="container-fluid">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link active" href="#">Active</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
-      </li>
-    </ul>
-  </div>
-</nav>
-
-<div class="container mt-5">
-  <div class="row">
-    <div class="col-sm-4">
-      <h2>About Me</h2>
-      <h5>Photo of me:</h5>
-      <div class="fakeimg">Fake Image</div>
-      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-      <h3 class="mt-4">Some Links</h3>
-      <p>Lorem ipsum dolor sit ame.</p>
-      <ul class="nav nav-pills flex-column">
-        <li class="nav-item">
-          <a class="nav-link active" href="#">Active</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
-        </li>
-      </ul>
-      <hr class="d-sm-none">
-    </div>
-    <div class="col-sm-8">
-      <h2>TITLE HEADING</h2>
-      <h5>Title description, Dec 7, 2020</h5>
-      <div class="fakeimg">Fake Image</div>
-      <p>Some text..</p>
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-
-      <h2 class="mt-5">TITLE HEADING</h2>
-      <h5>Title description, Sep 2, 2020</h5>
-      <div class="fakeimg">Fake Image</div>
-      <p>Some text..</p>
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-    </div>
-  </div>
-</div>
-
-<div class="mt-5 p-4 bg-dark text-white text-center">
-  <p>Footer</p>
-</div>
-
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>FlowDesk | Modern Workflow Software</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-secondary p-3 shadow-sm">
+      <div class="container">
+        <a class="navbar-brand" href="#">FlowDesk</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Solutions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Docs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="hero ">
+      <img src="images/2.jpeg" class="w-100">
+      <div class="overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center text-center text-white">
+        <h1>Streamline Your Workflow with FlowDesk</h1>
+        <p class="lead mt-3">Empowering enterprises with intelligent automation and seamless service delivery.</p>
+        <a href="#" class="btn btn-light btn-lg mt-4">Get Started</a>
+      </div>
+    </section>
+    <section class="container mt-5">
+      <div class="text-center mb-4">
+        <h2>Core Features</h2>
+        <p class="text-muted">What makes FlowDesk powerful and reliable</p>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="feature-card">
+            <h5>Automated Workflows</h5>
+            <p>Design and deploy smart workflows that reduce manual tasks and errors.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature-card">
+            <h5>Centralized Dashboard</h5>
+            <p>Manage all operations from a single, customizable control panel.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature-card">
+            <h5>Analytics & Reports</h5>
+            <p>Gain deep insights with real-time data and visual reports.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container mt-5">
+      <div class="text-center mb-4">
+        <h2>Core Features</h2>
+        <p class="text-muted">What makes FlowDesk powerful and reliable</p>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="card h-100 shadow-sm">
+            <img src="images/2.jpeg" class="card-img-top" alt="Automated Workflows">
+            <div class="card-body text-center">
+              <h5 class="card-title">Automated Workflows</h5>
+              <p class="card-text">Design and deploy smart workflows that reduce manual tasks and errors.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card h-100 shadow-sm">
+            <img src="images/2.jpeg" class="card-img-top" alt="Centralized Dashboard">
+            <div class="card-body text-center">
+              <h5 class="card-title">Centralized Dashboard</h5>
+              <p class="card-text">Manage all operations from a single, customizable control panel.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="custom-footer bg-dark text-white py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h5>FlowDesk</h5>
+            <p>&copy; 2025 FlowDesk. All rights reserved.</p>
+          </div>
+          <div class="col-md-4">
+            <h5>Company</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#" class="text-white text-decoration-none">About</a>
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none">Careers</a>
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none">Blog</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h5>Support</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#" class="text-white text-decoration-none">Help Center</a>
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none">Terms</a>
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none">Privacy</a>
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none">Cookies</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
